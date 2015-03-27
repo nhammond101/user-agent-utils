@@ -8,7 +8,7 @@
 	<name>User-Agent-Utils</name>
 	<url>http://java.net/projects/user-agent-utils</url>
 	<artifactId>UserAgentUtils</artifactId>
-	<version>1.15-snapshot</version>
+	<version>1.16-SNAPSHOT</version>
 	<description>Utility classes to handle user-agents.</description>
 	<properties>
     	<github.global.server>github</github.global.server>
@@ -31,6 +31,15 @@
 				<role>developer</role>
 			</roles>
 			<timezone>-2</timezone>
+		</developer>
+		<developer>
+			<id>nhammond</id>
+			<name>Nick Hammond</name>
+			<url>http://www.brightskyapps.com</url>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>0</timezone>
 		</developer>
 	</developers>
 
