@@ -17,13 +17,14 @@ A lot of user-agents lie about their identify. That makes US sniffing a guessing
 
 If you want faster updates, switch to snapshot releases.     
 
-New in Version 1.18
+New in Version 1.19
 -------------------
-- #118 Updated Opera support
-- #115 Improved Ubuntu detection
-- #114 Fixed Microsoft Edge version detection
-- #125 Improved Opera version detection
-- Safari 9 support
+- #138 Improved future Microsoft Edge detection and added  Edge 13
+- Added current and future Firefox and Chrome versions
+- Improved detection of unsuported new Firefox versions
+- Added detection of Firefox mobile for iOS devices
+- Improved Phantom.js detection as BOT
+- Added support for Android 6 and Android 6 tablets 
 
 Javadoc
 -------
@@ -37,7 +38,7 @@ Add dependency:
 <dependency>
    <groupId>eu.bitwalker</groupId>
    <artifactId>UserAgentUtils</artifactId>
-   <version>1.18</version>
+   <version>1.19</version>
 </dependency>
 ```
 
@@ -46,7 +47,7 @@ Add dependency for snapshot releases:
 <dependency>
    <groupId>eu.bitwalker</groupId>
    <artifactId>UserAgentUtils</artifactId>
-   <version>1.19-SNAPSHOT</version>
+   <version>1.20-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -83,6 +84,14 @@ http://www.bitwalker.eu/contact
 
 Changelog
 ---------
+
+1.18
+----
+- #118 Updated Opera support
+- #115 Improved Ubuntu detection
+- #114 Fixed Microsoft Edge version detection
+- #125 Improved Opera version detection
+- Safari 9 support
 
 1.17
 ----
